@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import polarisLogo from './assets/polaris-logo.png'
 import './App.css'
 
 function App() {
@@ -9,24 +8,18 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="https://docs.google.com/document/d/1pB1V0KfhygnHu9aCYTpEDBGfPTfwxd2ULB5c9Q6GGnU" target="_blank">
+          <img src={polarisLogo} className="logo polaris" alt="Polaris logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Polaris</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Clique na logo para saber mais sobre nossa missão!
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+       Polaris: mostrando o caminho para um futuro melhor.
       </p>
     </>
   )
