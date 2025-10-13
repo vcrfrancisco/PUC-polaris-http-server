@@ -12,7 +12,7 @@ function App() {
           <img src={polarisLogo} className="logo polaris" alt="Polaris logo" />
         </a>
       </div>
-      <h1>Polaris</h1>
+      <h1>Bem-vindo à Polaris!</h1>
       <div className="card">
         <p>
           Clique na logo para saber mais sobre nossa missão!
